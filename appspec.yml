@@ -8,6 +8,7 @@ permissions:
     pattern: "**"
     owner: ubuntu
     group: ubuntu
+    mode : 555 
     type:
       - directory
 permissions:
@@ -15,6 +16,5 @@ permissions:
     pattern: "**"
     owner: ubuntu
     group: ubuntu
-    mode : 555 
     type:
       - file
