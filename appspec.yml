@@ -6,5 +6,6 @@ files:
 
 hooks:
    ApplicationStart:
-     - location: Appstart.bat
+     - location: c:/Appstart.bat
+     timeout: 3
        
