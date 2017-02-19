@@ -2,10 +2,8 @@ version: 0.0
 os: windows
 files:
   - source: /
-    destination: c:/
-
+    destination: c:/codedeploy/InstallMSTRWin
 hooks:
-   ApplicationStart:
-     - location: c:/Appstart.bat
-     timeout: 3
-       
+  AfterInstall:
+    - location: autologin.bat
+      timeout: 600
